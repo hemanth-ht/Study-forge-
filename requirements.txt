@@ -1,0 +1,4 @@
+streamlit
+pymupdf
+anthropic
+python-dotenv

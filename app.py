@@ -24,7 +24,7 @@ elif notes:
 if st.button("Generate flashcards") and text:
     with st.spinner("Generating..."):
         msg = client.messages.create(
-            model="claude-sonnet-4-5",
+            model="claude-fable-5-1",
             max_tokens=1500,
             messages=[{
                 "role": "user",
